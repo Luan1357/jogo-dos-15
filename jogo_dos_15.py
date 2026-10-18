@@ -186,7 +186,7 @@ while jogo_rodando:
         if nova_linha is None:
             continue
 
-            # Só deixa mover se a peça não bater na parede do tabuleiro
+        # Só deixa mover se a peça não bater na parede do tabuleiro
         if 0 <= nova_linha < 4 and 0 <= nova_coluna < 4:
             tabuleiro[linha_zero][col_zero], tabuleiro[nova_linha][nova_coluna] = \
                 tabuleiro[nova_linha][nova_coluna], tabuleiro[linha_zero][col_zero]

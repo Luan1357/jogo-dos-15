@@ -1,4 +1,4 @@
-# Jogo dos 15 — Quebra-cabeça deslizante em Python
+# Jogo dos 15: Quebra-cabeça deslizante em Python
 
 ## Descrição do projeto
 
@@ -12,7 +12,7 @@ O jogo também inclui uma função de **resolução automática** (tecla `R`), q
 
 ## Limitação técnica
 
-**A resolução automática não usa algoritmo de busca (BFS/A\*).** Ela reverte o próprio histórico de movimentos registrado durante a partida, na ordem inversa — ou seja, funciona apenas para tabuleiros embaralhados por esta execução do programa. Não é capaz de resolver um tabuleiro arbitrário informado de fora.
+**A resolução automática não usa algoritmo de busca (BFS/A\*).** Ela reverte o próprio histórico de movimentos registrado durante a partida, na ordem inversa, ou seja, funciona apenas para tabuleiros embaralhados por esta execução do programa. Não é capaz de resolver um tabuleiro arbitrário informado de fora.
 
 ## Como usar
 
@@ -24,7 +24,7 @@ Controles: `W` `A` `S` `D` para mover, `R` para resolução automática, `Q` par
 
 ## Disciplina
 
-Programação Imperativa — PUCPR, 2026
+Programação Imperativa, PUCPR, 2026
 
 ## Tecnologias utilizadas
 
@@ -32,7 +32,7 @@ Programação Imperativa — PUCPR, 2026
 
 ## Estrutura do repositório
 
-- `jogo_dos_15.py` — código-fonte do jogo.
+- `jogo_dos_15.py`: código-fonte do jogo.
 
 ## Contexto acadêmico
 
